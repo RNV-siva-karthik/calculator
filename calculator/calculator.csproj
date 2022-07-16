@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>calculator-icon_34473.ico</ApplicationIcon>
+    <PackageIcon>calculator-icon_34473.png</PackageIcon>
+    <Authors>RNV-siva-karthik</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="calculator-icon_34473.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\calculator-icon_34473.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
